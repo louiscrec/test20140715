@@ -1,0 +1,1622 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 11:00:01 +0800
+
+Mysql2::Error - Host '114-46-128-226.dynamic.hinet.net' is not allowed to connect to this MySQL server:
+  mysql2 (0.3.15) lib/mysql2/client.rb:67:in `initialize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.2) lib/active_record/migration.rb:792:in `current_version'
+  activerecord (4.0.2) lib/active_record/migration.rb:800:in `needs_migration?'
+  activerecord (4.0.2) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.2) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__736861537__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/97380530/variables" for 127.0.0.1 at 2014-07-03 11:00:01 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:08:28 +0800
+
+Mysql2::Error - Host '114-46-128-226.dynamic.hinet.net' is not allowed to connect to this MySQL server:
+  mysql2 (0.3.15) lib/mysql2/client.rb:67:in `initialize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.2) lib/active_record/migration.rb:792:in `current_version'
+  activerecord (4.0.2) lib/active_record/migration.rb:800:in `needs_migration?'
+  activerecord (4.0.2) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.2) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__736861537__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/114460370/variables" for 127.0.0.1 at 2014-07-03 13:08:28 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:08:34 +0800
+
+Mysql2::Error - Host '114-46-128-226.dynamic.hinet.net' is not allowed to connect to this MySQL server:
+  mysql2 (0.3.15) lib/mysql2/client.rb:67:in `initialize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.2) lib/active_record/migration.rb:792:in `current_version'
+  activerecord (4.0.2) lib/active_record/migration.rb:800:in `needs_migration?'
+  activerecord (4.0.2) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.2) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__736861537__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/112420580/variables" for 127.0.0.1 at 2014-07-03 13:08:34 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:08:54 +0800
+
+Mysql2::Error - Host '114-46-128-226.dynamic.hinet.net' is not allowed to connect to this MySQL server:
+  mysql2 (0.3.15) lib/mysql2/client.rb:67:in `initialize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.2) lib/active_record/migration.rb:792:in `current_version'
+  activerecord (4.0.2) lib/active_record/migration.rb:800:in `needs_migration?'
+  activerecord (4.0.2) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.2) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__736861537__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/110410250/variables" for 127.0.0.1 at 2014-07-03 13:08:54 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:09:22 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (16.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+ActiveRecord::PendingMigrationError - Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.:
+  activerecord (4.0.2) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.2) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__892802514__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/93757770/variables" for 127.0.0.1 at 2014-07-03 13:09:23 +0800
+
+
+Started POST "/__better_errors/93757770/variables" for 127.0.0.1 at 2014-07-03 13:10:25 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddBalanceToProofs (20140702035833)
+  [1m[35m (77.3ms)[0m  ALTER TABLE `proofs` ADD `balance` varchar(30)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140702035833')
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-03 13:17:09 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (2.7ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (8.9ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:17:09')[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (87.5ms)
+  Rendered shared/_html5.html.slim (34.3ms)
+  Rendered shared/_meta.html.slim (3.7ms)
+  Rendered shared/_browser.html.slim (3.6ms)
+  Rendered shared/_footer.html.slim (16.0ms)
+Completed 200 OK in 7105ms (Views: 6770.9ms | ActiveRecord: 24.3ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-07-03 13:17:34 +0800
+Processing by SessionsController#new as HTML
+  [1m[36mMember Load (2.3ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:17:35')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered sessions/new.html.slim within layouts/frame (49.7ms)
+  Rendered shared/_flash.slim (10.6ms)
+  Rendered shared/_html5.html.slim (2.2ms)
+  Rendered shared/_meta.html.slim (0.8ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_pusher.html.slim (9.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered shared/_menu.html.slim (23.9ms)
+  Rendered shared/_header.html.slim (40.9ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+  Rendered layouts/application.html.slim (96.4ms)
+Completed 200 OK in 386ms (Views: 180.2ms | ActiveRecord: 4.9ms)
+
+
+Started POST "/auth/identity/callback" for 127.0.0.1 at 2014-07-03 13:18:23 +0800
+(identity) Callback phase initiated.
+  [1m[35mIdentity Load (3.7ms)[0m  SELECT `identities`.* FROM `identities` WHERE `identities`.`email` = 'admin@peatio.dev' ORDER BY `identities`.`id` ASC LIMIT 1
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LmVgxO4yknNtB+9Jie0gYSMoHmFba9SsikVIyHd/myw=", "auth_key"=>"admin@peatio.dev", "password"=>"[FILTERED]", "commit"=>"登錄"}
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:18:24')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mAuthentication Load (1.1ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE `authentications`.`provider` = 'identity' AND `authentications`.`uid` = '1' LIMIT 1[0m
+  [1m[35mMember Load (0.5ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` = 1 ORDER BY `members`.`id` ASC LIMIT 1
+Redirected to http://0.0.0.0:3000/verify/two_factor/new
+Completed 302 Found in 288ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/verify/two_factor/new" for 127.0.0.1 at 2014-07-03 13:18:24 +0800
+Processing by Verify::TwoFactorsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:18:24')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mMember Load (2.3ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1
+  [1m[36m (2.1ms)[0m  [1mSELECT COUNT(*) FROM `two_factors` WHERE `two_factors`.`member_id` = 1 AND `two_factors`.`activated` = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1
+Redirected to http://0.0.0.0:3000/settings
+Completed 302 Found in 249ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/settings" for 127.0.0.1 at 2014-07-03 13:18:24 +0800
+Processing by Private::SettingsController#index as HTML
+  [1m[36mMember Load (3.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:18:24')
+  [1m[36mTwoFactor Load (0.4ms)[0m  [1mSELECT `two_factors`.* FROM `two_factors` WHERE `two_factors`.`member_id` = 1 AND `two_factors`.`type` = 'TwoFactor::App' LIMIT 1[0m
+  [1m[35mIdDocument Load (2.9ms)[0m  SELECT `id_documents`.* FROM `id_documents` WHERE `id_documents`.`member_id` = 1 ORDER BY `id_documents`.`id` ASC LIMIT 1
+  [1m[36mAccount Load (0.6ms)[0m  [1mSELECT `accounts`.* FROM `accounts` WHERE `accounts`.`member_id` = 1[0m
+  Rendered private/settings/_account_balance.html.slim (36.1ms)
+  [1m[35mAuthentication Load (0.4ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`member_id` = 1 AND `authentications`.`provider` = 'identity' LIMIT 1
+  [1m[36mIdentity Load (0.4ms)[0m  [1mSELECT `identities`.* FROM `identities` WHERE `identities`.`id` = 1 LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 1 AND `taggings`.`taggable_type` = 'Member' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered private/settings/index.html.slim within layouts/frame (157.7ms)
+  Rendered shared/_flash.slim (0.1ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (4.1ms)
+  Rendered shared/_menu.html.slim (22.1ms)
+  Rendered shared/_header.html.slim (32.5ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+  Rendered layouts/application.html.slim (98.3ms)
+Completed 200 OK in 552ms (Views: 273.4ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/withdraws" for 127.0.0.1 at 2014-07-03 13:18:41 +0800
+Processing by Private::WithdrawsController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:18:41')
+Redirected to http://0.0.0.0:3000/settings
+Filter chain halted as :auth_activated! rendered or redirected
+Completed 302 Found in 206ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/settings" for 127.0.0.1 at 2014-07-03 13:18:41 +0800
+Processing by Private::SettingsController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:18:41')
+  [1m[36mTwoFactor Load (2.1ms)[0m  [1mSELECT `two_factors`.* FROM `two_factors` WHERE `two_factors`.`member_id` = 1 AND `two_factors`.`type` = 'TwoFactor::App' LIMIT 1[0m
+  [1m[35mIdDocument Load (0.3ms)[0m  SELECT `id_documents`.* FROM `id_documents` WHERE `id_documents`.`member_id` = 1 ORDER BY `id_documents`.`id` ASC LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT `accounts`.* FROM `accounts` WHERE `accounts`.`member_id` = 1[0m
+  Rendered private/settings/_account_balance.html.slim (3.4ms)
+  [1m[35mAuthentication Load (6.4ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`member_id` = 1 AND `authentications`.`provider` = 'identity' LIMIT 1
+  [1m[36mIdentity Load (1.1ms)[0m  [1mSELECT `identities`.* FROM `identities` WHERE `identities`.`id` = 1 LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 1 AND `taggings`.`taggable_type` = 'Member' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered private/settings/index.html.slim within layouts/frame (28.8ms)
+  Rendered shared/_flash.slim (0.2ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (8.8ms)
+  Rendered shared/_menu.html.slim (5.1ms)
+  Rendered shared/_header.html.slim (20.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+  Rendered layouts/application.html.slim (72.1ms)
+Completed 200 OK in 309ms (Views: 101.6ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/markets/btccny" for 127.0.0.1 at 2014-07-03 13:31:54 +0800
+Processing by Private::MarketsController#show as HTML
+  Parameters: {"id"=>"btccny", "market"=>"btccny", "ask"=>"btc", "bid"=>"cny"}
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (1.2ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:31:54')
+  [1m[36mTrade Load (3.5ms)[0m  [1mSELECT id, price, sum(volume) as volume, trend, currency, max(created_at) as created_at FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:31:55') GROUP BY ROUND(UNIX_TIMESTAMP(created_at)/(5 * 60)) ORDER BY `trades`.`id` ASC, max(created_at) ASC[0m
+  [1m[35m (0.5ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:31:55')
+  [1m[36mOrder Load (0.5ms)[0m  [1mSELECT `orders`.* FROM `orders` WHERE `orders`.`member_id` = 1 AND `orders`.`currency` = 3 AND `orders`.`state` = 0 ORDER BY `orders`.`id` DESC LIMIT 5[0m
+  [1m[35mTrade Load (0.4ms)[0m  SELECT `trades`.* FROM `trades` WHERE `trades`.`currency` = 3 AND (ask_member_id = 1 or bid_member_id = 1) ORDER BY id desc LIMIT 100
+  [1m[36mAccount Load (1.0ms)[0m  [1mSELECT `accounts`.* FROM `accounts` WHERE `accounts`.`member_id` = 1 AND `accounts`.`currency` = 2 ORDER BY `accounts`.`id` ASC LIMIT 1[0m
+  [1m[35mAccount Load (0.5ms)[0m  SELECT `accounts`.* FROM `accounts` WHERE `accounts`.`member_id` = 1 AND `accounts`.`currency` = 1 ORDER BY `accounts`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (0.3ms)[0m  [1mSELECT `orders`.* FROM `orders` WHERE `orders`.`member_id` = 1 AND `orders`.`currency` = 3 AND `orders`.`state` = 100[0m
+  Rendered private/markets/_ticker.html.slim (20.1ms)
+  Rendered private/markets/_account_balance.html.slim (4.8ms)
+  Rendered private/markets/_price_chart.html.slim (3.6ms)
+  Rendered private/markets/_place_order.html.slim (56.9ms)
+  Rendered private/markets/_market_trades.html.slim (6.6ms)
+  Rendered private/markets/_order_book.html.slim (8.4ms)
+  Rendered private/markets/_my_orders.html.slim (42.7ms)
+  Rendered private/markets/show.html.slim within layouts/market (186.5ms)
+  Rendered shared/_footer_col24.html.slim (16.5ms)
+  Rendered shared/_html5.html.slim (1.0ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_pusher.html.slim (6.8ms)
+  Rendered shared/_menu.html.slim (5.9ms)
+  Rendered shared/_header.html.slim (18.6ms)
+  Rendered layouts/application.html.slim (2159.4ms)
+Completed 200 OK in 3237ms (Views: 2386.4ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/api/prices/btccny" for 127.0.0.1 at 2014-07-03 13:32:00 +0800
+Processing by API::V1::PricesController#show as JSON
+  Parameters: {"id"=>"btccny", "market"=>"btccny", "ask"=>"btc", "bid"=>"cny"}
+  [1m[35mMember Load (2.4ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1
+  Rendered api/v1/prices/show.jbuilder (0.7ms)
+Completed 200 OK in 108ms (Views: 31.3ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/pusher/auth" for 127.0.0.1 at 2014-07-03 13:32:01 +0800
+Processing by Private::PusherController#auth as HTML
+  Parameters: {"socket_id"=>"38202.835273", "channel_name"=>"private-PEAK2EMAFJYTIO"}
+  [1m[36mMember Load (0.5ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:32:01')
+Completed 200 OK in 194ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/deposits" for 127.0.0.1 at 2014-07-03 13:32:14 +0800
+Processing by Private::DepositsController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:32:14')
+  Rendered private/deposits/index.html.slim within layouts/frame (11.5ms)
+  Rendered shared/_flash.slim (0.2ms)
+  Rendered shared/_html5.html.slim (1.0ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (3.0ms)
+  Rendered shared/_menu.html.slim (5.9ms)
+  Rendered shared/_header.html.slim (14.1ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+  Rendered layouts/application.html.slim (68.7ms)
+Completed 200 OK in 312ms (Views: 92.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/withdraws" for 127.0.0.1 at 2014-07-03 13:32:31 +0800
+Processing by Private::WithdrawsController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:32:31')
+Redirected to http://0.0.0.0:3000/settings
+Filter chain halted as :auth_activated! rendered or redirected
+Completed 302 Found in 197ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/settings" for 127.0.0.1 at 2014-07-03 13:32:31 +0800
+Processing by Private::SettingsController#index as HTML
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:32:32')
+  [1m[36mTwoFactor Load (0.2ms)[0m  [1mSELECT `two_factors`.* FROM `two_factors` WHERE `two_factors`.`member_id` = 1 AND `two_factors`.`type` = 'TwoFactor::App' LIMIT 1[0m
+  [1m[35mIdDocument Load (2.5ms)[0m  SELECT `id_documents`.* FROM `id_documents` WHERE `id_documents`.`member_id` = 1 ORDER BY `id_documents`.`id` ASC LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT `accounts`.* FROM `accounts` WHERE `accounts`.`member_id` = 1[0m
+  Rendered private/settings/_account_balance.html.slim (3.2ms)
+  [1m[35mAuthentication Load (9.0ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`member_id` = 1 AND `authentications`.`provider` = 'identity' LIMIT 1
+  [1m[36mIdentity Load (0.9ms)[0m  [1mSELECT `identities`.* FROM `identities` WHERE `identities`.`id` = 1 LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.3ms)[0m  SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 1 AND `taggings`.`taggable_type` = 'Member' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered private/settings/index.html.slim within layouts/frame (34.2ms)
+  Rendered shared/_flash.slim (0.1ms)
+  Rendered shared/_html5.html.slim (3.4ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (2.7ms)
+  Rendered shared/_menu.html.slim (16.3ms)
+  Rendered shared/_header.html.slim (22.0ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+  Rendered layouts/application.html.slim (72.3ms)
+Completed 200 OK in 319ms (Views: 105.4ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/history/orders" for 127.0.0.1 at 2014-07-03 13:32:39 +0800
+Processing by Private::HistoryController#orders as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:32:39')
+  [1m[36mOrder Load (0.5ms)[0m  [1mSELECT `orders`.* FROM `orders` WHERE `orders`.`member_id` = 1 ORDER BY id desc LIMIT 20 OFFSET 0[0m
+  Rendered private/history/_order.html.slim (0.0ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM `orders` WHERE `orders`.`member_id` = 1
+  Rendered private/history/orders.html.slim within layouts/application (109.1ms)
+  Rendered shared/_html5.html.slim (1.0ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (3.0ms)
+  Rendered shared/_menu.html.slim (9.7ms)
+  Rendered shared/_header.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 378ms (Views: 174.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/settings" for 127.0.0.1 at 2014-07-03 13:32:44 +0800
+Processing by Private::SettingsController#index as HTML
+  [1m[36mMember Load (1.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:32:44')
+  [1m[36mTwoFactor Load (0.5ms)[0m  [1mSELECT `two_factors`.* FROM `two_factors` WHERE `two_factors`.`member_id` = 1 AND `two_factors`.`type` = 'TwoFactor::App' LIMIT 1[0m
+  [1m[35mIdDocument Load (0.3ms)[0m  SELECT `id_documents`.* FROM `id_documents` WHERE `id_documents`.`member_id` = 1 ORDER BY `id_documents`.`id` ASC LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT `accounts`.* FROM `accounts` WHERE `accounts`.`member_id` = 1[0m
+  Rendered private/settings/_account_balance.html.slim (7.4ms)
+  [1m[35mAuthentication Load (0.2ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`member_id` = 1 AND `authentications`.`provider` = 'identity' LIMIT 1
+  [1m[36mIdentity Load (0.1ms)[0m  [1mSELECT `identities`.* FROM `identities` WHERE `identities`.`id` = 1 LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (1.1ms)[0m  SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 1 AND `taggings`.`taggable_type` = 'Member' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered private/settings/index.html.slim within layouts/frame (30.0ms)
+  Rendered shared/_flash.slim (0.1ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (3.0ms)
+  Rendered shared/_menu.html.slim (15.5ms)
+  Rendered shared/_header.html.slim (22.5ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+  Rendered layouts/application.html.slim (65.8ms)
+Completed 200 OK in 309ms (Views: 102.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/settings" for 127.0.0.1 at 2014-07-03 13:32:53 +0800
+Processing by Private::SettingsController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:32:53')
+  [1m[36mTwoFactor Load (0.3ms)[0m  [1mSELECT `two_factors`.* FROM `two_factors` WHERE `two_factors`.`member_id` = 1 AND `two_factors`.`type` = 'TwoFactor::App' LIMIT 1[0m
+  [1m[35mIdDocument Load (0.2ms)[0m  SELECT `id_documents`.* FROM `id_documents` WHERE `id_documents`.`member_id` = 1 ORDER BY `id_documents`.`id` ASC LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT `accounts`.* FROM `accounts` WHERE `accounts`.`member_id` = 1[0m
+  Rendered private/settings/_account_balance.html.slim (5.1ms)
+  [1m[35mAuthentication Load (0.2ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`member_id` = 1 AND `authentications`.`provider` = 'identity' LIMIT 1
+  [1m[36mIdentity Load (0.2ms)[0m  [1mSELECT `identities`.* FROM `identities` WHERE `identities`.`id` = 1 LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.3ms)[0m  SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 1 AND `taggings`.`taggable_type` = 'Member' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered private/settings/index.html.slim within layouts/frame (34.1ms)
+  Rendered shared/_flash.slim (0.1ms)
+  Rendered shared/_html5.html.slim (1.4ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (3.1ms)
+  Rendered shared/_menu.html.slim (17.0ms)
+  Rendered shared/_header.html.slim (23.1ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+  Rendered layouts/application.html.slim (94.5ms)
+Completed 200 OK in 353ms (Views: 135.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/history/orders" for 127.0.0.1 at 2014-07-03 13:32:58 +0800
+Processing by Private::HistoryController#orders as HTML
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:32:58')
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT `orders`.* FROM `orders` WHERE `orders`.`member_id` = 1 ORDER BY id desc LIMIT 20 OFFSET 0[0m
+  Rendered private/history/_order.html.slim (0.0ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `orders` WHERE `orders`.`member_id` = 1
+  Rendered private/history/orders.html.slim within layouts/application (33.7ms)
+  Rendered shared/_html5.html.slim (1.2ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (6.2ms)
+  Rendered shared/_menu.html.slim (15.5ms)
+  Rendered shared/_header.html.slim (25.9ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 336ms (Views: 136.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/history/orders?lang=zh-TW" for 127.0.0.1 at 2014-07-03 13:33:33 +0800
+Processing by Private::HistoryController#orders as HTML
+  Parameters: {"lang"=>"zh-TW"}
+  [1m[36mMember Load (2.7ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:33:33')
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT `orders`.* FROM `orders` WHERE `orders`.`member_id` = 1 ORDER BY id desc LIMIT 20 OFFSET 0[0m
+  Rendered private/history/_order.html.slim (0.0ms)
+  [1m[35m (2.0ms)[0m  SELECT COUNT(*) FROM `orders` WHERE `orders`.`member_id` = 1
+  Rendered private/history/orders.html.slim within layouts/application (42.6ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.9ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (4.5ms)
+  Rendered shared/_menu.html.slim (6.3ms)
+  Rendered shared/_header.html.slim (14.4ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 351ms (Views: 125.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/exchange_assets" for 127.0.0.1 at 2014-07-03 13:33:42 +0800
+Processing by Private::AssetsController#index as HTML
+  [1m[36mMember Load (4.8ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:33:43')
+Redirected to http://0.0.0.0:3000/settings
+Filter chain halted as :auth_activated! rendered or redirected
+Completed 302 Found in 202ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/settings" for 127.0.0.1 at 2014-07-03 13:33:43 +0800
+Processing by Private::SettingsController#index as HTML
+  [1m[36mMember Load (0.5ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-02 13:33:43')
+  [1m[36mTwoFactor Load (0.3ms)[0m  [1mSELECT `two_factors`.* FROM `two_factors` WHERE `two_factors`.`member_id` = 1 AND `two_factors`.`type` = 'TwoFactor::App' LIMIT 1[0m
+  [1m[35mIdDocument Load (0.1ms)[0m  SELECT `id_documents`.* FROM `id_documents` WHERE `id_documents`.`member_id` = 1 ORDER BY `id_documents`.`id` ASC LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT `accounts`.* FROM `accounts` WHERE `accounts`.`member_id` = 1[0m
+  Rendered private/settings/_account_balance.html.slim (5.1ms)
+  [1m[35mAuthentication Load (0.2ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`member_id` = 1 AND `authentications`.`provider` = 'identity' LIMIT 1
+  [1m[36mIdentity Load (0.1ms)[0m  [1mSELECT `identities`.* FROM `identities` WHERE `identities`.`id` = 1 LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (2.9ms)[0m  SELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.`id` = `taggings`.`tag_id` WHERE `taggings`.`taggable_id` = 1 AND `taggings`.`taggable_type` = 'Member' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered private/settings/index.html.slim within layouts/frame (32.5ms)
+  Rendered shared/_flash.slim (0.1ms)
+  Rendered shared/_html5.html.slim (1.2ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (2.6ms)
+  Rendered shared/_menu.html.slim (13.8ms)
+  Rendered shared/_header.html.slim (21.0ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+  Rendered layouts/application.html.slim (75.1ms)
+Completed 200 OK in 323ms (Views: 109.6ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:37:24 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (1.2ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:37:25')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (58.2ms)
+  Rendered shared/_html5.html.slim (14.6ms)
+  Rendered shared/_meta.html.slim (4.9ms)
+  Rendered shared/_browser.html.slim (25.9ms)
+  Rendered shared/_footer.html.slim (12.3ms)
+Completed 200 OK in 1162ms (Views: 766.7ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:46:02 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (1.5ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:46:02')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (45.2ms)
+  Rendered shared/_html5.html.slim (13.3ms)
+  Rendered shared/_meta.html.slim (7.2ms)
+  Rendered shared/_browser.html.slim (24.3ms)
+  Rendered shared/_footer.html.slim (12.7ms)
+Completed 200 OK in 973ms (Views: 599.2ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:48:54 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (1.2ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:48:54')
+  [1m[36mCACHE (0.8ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (1.7ms)
+  Rendered shared/_html5.html.slim (1.2ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 290ms (Views: 86.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:49:28 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.3ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:49:28')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (6.2ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 298ms (Views: 96.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:49:47 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (1.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:49:48')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (2.8ms)
+  Rendered shared/_html5.html.slim (1.0ms)
+  Rendered shared/_meta.html.slim (1.9ms)
+  Rendered shared/_browser.html.slim (1.3ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 275ms (Views: 57.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:50:19 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:50:19')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (1.9ms)
+  Rendered shared/_html5.html.slim (1.5ms)
+  Rendered shared/_meta.html.slim (0.4ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 289ms (Views: 97.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:51:10 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (1.5ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:51:11')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (46.7ms)
+  Rendered shared/_html5.html.slim (17.0ms)
+  Rendered shared/_meta.html.slim (4.6ms)
+  Rendered shared/_browser.html.slim (5.6ms)
+  Rendered shared/_footer.html.slim (10.9ms)
+Completed 200 OK in 906ms (Views: 540.8ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:51:37 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (3.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:51:37')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (3.9ms)
+  Rendered shared/_html5.html.slim (1.9ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 301ms (Views: 92.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:53:59 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.3ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:54:00')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (15.0ms)
+  Rendered shared/_html5.html.slim (1.0ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 270ms (Views: 62.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 11:54:15 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (1.1ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 11:54:15')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (26.1ms)
+  Rendered shared/_html5.html.slim (1.2ms)
+  Rendered shared/_meta.html.slim (0.7ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 329ms (Views: 117.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 13:23:21 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (1.7ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (4.7ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 13:23:21')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (31.3ms)
+  Rendered shared/_html5.html.slim (2.6ms)
+  Rendered shared/_meta.html.slim (0.8ms)
+  Rendered shared/_browser.html.slim (1.4ms)
+  Rendered shared/_footer.html.slim (0.2ms)
+Completed 200 OK in 331ms (Views: 101.7ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-07-04 13:26:52 +0800
+Processing by SessionsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (1.1ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 13:26:52')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered sessions/new.html.slim within layouts/frame (50.5ms)
+  Rendered shared/_flash.slim (14.2ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (1.1ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (4.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered shared/_menu.html.slim (14.5ms)
+  Rendered shared/_header.html.slim (63.5ms)
+  Rendered shared/_footer.html.slim (0.2ms)
+  Rendered layouts/application.html.slim (116.6ms)
+Completed 200 OK in 517ms (Views: 298.1ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/signin?lang=zh-TW" for 127.0.0.1 at 2014-07-04 13:27:09 +0800
+Processing by SessionsController#new as HTML
+  Parameters: {"lang"=>"zh-TW"}
+  [1m[35mMember Load (0.4ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 13:27:09')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/new.html.slim within layouts/frame (17.2ms)
+  Rendered shared/_flash.slim (6.1ms)
+  Rendered shared/_html5.html.slim (3.5ms)
+  Rendered shared/_meta.html.slim (3.7ms)
+  Rendered shared/_browser.html.slim (3.0ms)
+  Rendered shared/_pusher.html.slim (8.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered shared/_menu.html.slim (11.9ms)
+  Rendered shared/_header.html.slim (27.1ms)
+  Rendered shared/_footer.html.slim (7.2ms)
+  Rendered layouts/application.html.slim (80.2ms)
+Completed 200 OK in 316ms (Views: 116.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 13:27:20 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (12.8ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 13:27:21')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (22.8ms)
+  Rendered shared/_html5.html.slim (1.2ms)
+  Rendered shared/_meta.html.slim (4.9ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 331ms (Views: 116.8ms | ActiveRecord: 13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-04 13:29:45 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-03 13:29:48')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (1.6ms)
+  Rendered shared/_html5.html.slim (1.0ms)
+  Rendered shared/_meta.html.slim (0.4ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.9ms)
+Completed 200 OK in 243ms (Views: 37.5ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 15:57:22 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (17.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (3.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (7.3ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 15:57:22')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (45.6ms)
+  Rendered shared/_html5.html.slim (13.5ms)
+  Rendered shared/_meta.html.slim (4.1ms)
+  Rendered shared/_browser.html.slim (5.7ms)
+  Rendered shared/_footer.html.slim (16.7ms)
+Completed 200 OK in 1117ms (Views: 768.2ms | ActiveRecord: 18.1ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-07-08 15:59:05 +0800
+Processing by SessionsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 15:59:05')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered sessions/new.html.slim within layouts/frame (52.1ms)
+  Rendered shared/_flash.slim (11.4ms)
+  Rendered shared/_html5.html.slim (3.9ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_pusher.html.slim (6.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered shared/_menu.html.slim (12.6ms)
+  Rendered shared/_header.html.slim (33.5ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+  Rendered layouts/application.html.slim (103.1ms)
+Completed 200 OK in 416ms (Views: 202.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/withdraws" for 127.0.0.1 at 2014-07-08 16:25:27 +0800
+Processing by Private::WithdrawsController#index as HTML
+  [1m[35mMember Load (0.4ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (1.9ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:25:27')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Filter chain halted as :auth_member! rendered or redirected
+Completed 302 Found in 225ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:25:27 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.5ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:25:28')[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (10.5ms)
+  Rendered shared/_html5.html.slim (1.3ms)
+  Rendered shared/_meta.html.slim (0.7ms)
+  Rendered shared/_browser.html.slim (0.4ms)
+  Rendered shared/_footer.html.slim (0.2ms)
+Completed 200 OK in 302ms (Views: 61.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:32:27 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (2.4ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:32:27')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (21.1ms)
+  Rendered shared/_html5.html.slim (1.0ms)
+  Rendered shared/_meta.html.slim (0.8ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_footer.html.slim (0.2ms)
+Completed 200 OK in 325ms (Views: 96.9ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:33:04 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (1.8ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:33:05')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (19.6ms)
+  Rendered shared/_html5.html.slim (1.0ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 302ms (Views: 86.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:33:49 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (1.1ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:33:49')
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (24.3ms)
+  Rendered shared/_html5.html.slim (1.2ms)
+  Rendered shared/_meta.html.slim (1.9ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 286ms (Views: 82.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:34:29 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (3.4ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:34:29')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (20.2ms)
+  Rendered shared/_html5.html.slim (3.8ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 288ms (Views: 78.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:35:33 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (2.3ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:35:34')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (96.4ms)
+Completed 500 Internal Server Error in 307ms
+
+Slim::Parser::SyntaxError - Malformed indentation
+  /home/louis/current/app/views/welcome/index.html.slim, Line 7, Column 4
+    section
+    ^
+:
+  slim (2.0.2) lib/slim/parser.rb:478:in `syntax_error!'
+  slim (2.0.2) lib/slim/parser.rb:173:in `parse_line'
+  slim (2.0.2) lib/slim/parser.rb:77:in `call'
+  temple (0.6.7) lib/temple/engine.rb:50:in `block in call'
+  temple (0.6.7) lib/temple/engine.rb:50:in `call'
+  temple (0.6.7) lib/temple/mixins/template.rb:10:in `compile'
+  temple (0.6.7) lib/temple/templates/rails.rb:34:in `call'
+  actionpack (4.0.2) lib/action_view/template.rb:272:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:443:in `_run__229277100__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:404:in `call_app!'
+  omniauth-identity (1.1.1) lib/omniauth/strategies/identity.rb:43:in `other_phase'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:185:in `call!'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.1) lib/omniauth/builder.rb:59:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/app_request_handler.rb:13:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/response_headers.rb:17:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/headers.rb:16:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/meta_request_handler.rb:13:in `call'
+  http_accept_language (2.0.1) lib/http_accept_language/middleware.rb:13:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__88607776__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/-634527248/variables" for 127.0.0.1 at 2014-07-08 16:35:34 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:36:06 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (3.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:36:07')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (7.8ms)
+Completed 500 Internal Server Error in 237ms
+
+Slim::Parser::SyntaxError - Malformed indentation
+  /home/louis/current/app/views/welcome/index.html.slim, Line 7, Column 4
+    section
+    ^
+:
+  slim (2.0.2) lib/slim/parser.rb:478:in `syntax_error!'
+  slim (2.0.2) lib/slim/parser.rb:173:in `parse_line'
+  slim (2.0.2) lib/slim/parser.rb:77:in `call'
+  temple (0.6.7) lib/temple/engine.rb:50:in `block in call'
+  temple (0.6.7) lib/temple/engine.rb:50:in `call'
+  temple (0.6.7) lib/temple/mixins/template.rb:10:in `compile'
+  temple (0.6.7) lib/temple/templates/rails.rb:34:in `call'
+  actionpack (4.0.2) lib/action_view/template.rb:272:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:443:in `_run__229277100__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:404:in `call_app!'
+  omniauth-identity (1.1.1) lib/omniauth/strategies/identity.rb:43:in `other_phase'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:185:in `call!'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.1) lib/omniauth/builder.rb:59:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/app_request_handler.rb:13:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/response_headers.rb:17:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/headers.rb:16:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/meta_request_handler.rb:13:in `call'
+  http_accept_language (2.0.1) lib/http_accept_language/middleware.rb:13:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__88607776__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/109699760/variables" for 127.0.0.1 at 2014-07-08 16:36:07 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:36:28 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (3.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:36:28')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (23.0ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (6.1ms)
+  Rendered shared/_browser.html.slim (2.5ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 299ms (Views: 92.0ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:36:50 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:36:51')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (13.8ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.4ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 254ms (Views: 48.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:37:09 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (1.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:37:09')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (25.8ms)
+  Rendered shared/_html5.html.slim (1.2ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 277ms (Views: 70.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:37:24 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.9ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:37:25')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (23.9ms)
+  Rendered shared/_html5.html.slim (10.1ms)
+  Rendered shared/_meta.html.slim (0.8ms)
+  Rendered shared/_browser.html.slim (4.1ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 332ms (Views: 125.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:37:47 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:37:47')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (3.3ms)
+Completed 500 Internal Server Error in 353ms
+
+Slim::Parser::SyntaxError - Malformed indentation
+  /home/louis/current/app/views/welcome/index.html.slim, Line 7, Column 4
+    section
+    ^
+:
+  slim (2.0.2) lib/slim/parser.rb:478:in `syntax_error!'
+  slim (2.0.2) lib/slim/parser.rb:173:in `parse_line'
+  slim (2.0.2) lib/slim/parser.rb:77:in `call'
+  temple (0.6.7) lib/temple/engine.rb:50:in `block in call'
+  temple (0.6.7) lib/temple/engine.rb:50:in `call'
+  temple (0.6.7) lib/temple/mixins/template.rb:10:in `compile'
+  temple (0.6.7) lib/temple/templates/rails.rb:34:in `call'
+  actionpack (4.0.2) lib/action_view/template.rb:272:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:443:in `_run__229277100__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:404:in `call_app!'
+  omniauth-identity (1.1.1) lib/omniauth/strategies/identity.rb:43:in `other_phase'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:185:in `call!'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.1) lib/omniauth/builder.rb:59:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/app_request_handler.rb:13:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/response_headers.rb:17:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/headers.rb:16:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/meta_request_handler.rb:13:in `call'
+  http_accept_language (2.0.1) lib/http_accept_language/middleware.rb:13:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__88607776__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/louis/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/-640484108/variables" for 127.0.0.1 at 2014-07-08 16:37:47 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:38:11 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:38:11')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (35.1ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 381ms (Views: 96.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:38:42 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (3.5ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:38:42')[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (24.1ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (2.5ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 309ms (Views: 96.2ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:39:25 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:39:25')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (43.5ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 327ms (Views: 89.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images/2.png" for 127.0.0.1 at 2014-07-08 16:39:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:39:42 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (1.3ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:39:42')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (14.0ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.8ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 260ms (Views: 54.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:40:24 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (1.9ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (1.1ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:40:24')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (67.7ms)
+  Rendered shared/_html5.html.slim (1.0ms)
+  Rendered shared/_meta.html.slim (1.8ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 351ms (Views: 123.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/images/2.png" for 127.0.0.1 at 2014-07-08 16:40:26 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:40:59 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:40:59')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (21.4ms)
+  Rendered shared/_html5.html.slim (4.4ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 294ms (Views: 86.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:41:26 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:41:26')
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (25.1ms)
+  Rendered shared/_html5.html.slim (1.1ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (0.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 302ms (Views: 66.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:43:02 +0800
+Processing by WelcomeController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36m (0.7ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:43:02')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  Rendered welcome/index.html.slim within layouts/landing (16.0ms)
+  Rendered shared/_html5.html.slim (1.3ms)
+  Rendered shared/_meta.html.slim (0.6ms)
+  Rendered shared/_browser.html.slim (2.2ms)
+  Rendered shared/_footer.html.slim (0.1ms)
+Completed 200 OK in 276ms (Views: 69.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-08 16:58:07 +0800
+Processing by WelcomeController#index as HTML
+  [1m[36mMember Load (0.9ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2014-07-07 16:58:07')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`id` IS NULL LIMIT 1[0m
+  Rendered welcome/index.html.slim within layouts/landing (21.7ms)
+  Rendered shared/_html5.html.slim (1.2ms)
+  Rendered shared/_meta.html.slim (0.5ms)
+  Rendered shared/_browser.html.slim (0.3ms)
+  Rendered shared/_footer.html.slim (0.2ms)
+Completed 200 OK in 273ms (Views: 71.2ms | ActiveRecord: 1.6ms)

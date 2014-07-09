@@ -1,0 +1,20 @@
+header.text-center
+  .ribbon
+    /img src='#{image_path '2.png'}' width='600px'
+    /註解掉a href="https://github.com/peatio/peatio" View on GitHub
+    img src='#{image_path '2.png'}' width='100px'
+  .container
+    a href='http://github.com/peatio/peatio'
+      img src='#{image_path '1.png'}' width='600px'
+    section
+      - Rails.configuration.i18n.available_locales.each do |locale|
+        h3 = t(:slogan, locale: locale)
+    #getstart.row
+      - unless current_user
+        .col-md-2.col-md-offset-4
+          a href="#{signin_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.signin")
+        .col-md-2
+          a href="#{signup_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.signup")
+      - else
+        .col-md-4.col-md-offset-4
+          a href="#{market_path(current_market)}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.getstart")

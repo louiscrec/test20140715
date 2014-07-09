@@ -1,0 +1,53 @@
+peatio:amqp:notification: process with pid 5602 started.
+I, [2014-06-30T16:36:03.762155 #5602]  INFO -- : Connected to AMQP broker (prefetch: default)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:1883:in `raise_if_continuation_resulted_in_a_channel_error!': ACCESS_REFUSED - access to queue 'peatio.notification.sms' in vhost '/' refused for user 'netwareboss' (Bunny::AccessRefused)
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:974:in `queue_declare'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/queue.rb:358:in `declare!'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/queue.rb:56:in `initialize'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:401:in `new'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:401:in `queue'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:37:in `block in <top (required)>'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:35:in `each'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:35:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/notification_ctl:11:in `<main>'
+peatio:amqp:notification: process with pid 2313 started.
+E, [2014-06-30T18:31:40.635764 #2313] ERROR -- #<Bunny::Session:70030927518280 guest@59.127.216.102:5672, vhost=/>: Authentication with RabbitMQ failed: 403 ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/session.rb:960:in `open_connection': Authentication with RabbitMQ failed. Please check your connection settings. Username: guest, vhost: /, password length: 5 (Bunny::AuthenticationFailureError)
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/session.rb:255:in `start'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:17:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/notification_ctl:11:in `<main>'
+peatio:amqp:notification: process with pid 2247 started.
+I, [2014-06-30T19:20:15.478073 #2247]  INFO -- : Connected to AMQP broker (prefetch: default)
+I, [2014-06-30T19:39:34.166388 #2247]  INFO -- : Received: {"mailer_class":"TokenMailer","method":"activation","args":["netwareboss@gmail.com","3471babaaeaf8ce3357e6433796b7105"]}
+I, [2014-06-30T19:40:07.364331 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-06-30T19:40:18.013073 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-06-30T20:46:37.225004 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-06-30T21:02:43.909098 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-06-30T22:24:11.984453 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-07-01T05:03:29.544970 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-07-01T16:41:36.031249 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-07-01T16:49:10.416756 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-07-01T17:01:29.660656 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-07-01T17:15:35.271745 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-07-01T23:23:40.947126 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-07-01T23:50:32.958957 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-07-02T16:11:59.571940 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}
+I, [2014-07-02T18:25:10.175194 #2247]  INFO -- : Received: {"mailer_class":"MemberMailer","method":"notify_signin","args":[2]}

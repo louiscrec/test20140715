@@ -1,0 +1,38 @@
+peatio:amqp:pusher: process with pid 5622 started.
+I, [2014-06-30T16:36:32.749252 #5622]  INFO -- : Connected to AMQP broker (prefetch: default)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:1883:in `raise_if_continuation_resulted_in_a_channel_error!': ACCESS_REFUSED - access to queue 'peatio.pusher.market' in vhost '/' refused for user 'netwareboss' (Bunny::AccessRefused)
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:974:in `queue_declare'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/queue.rb:358:in `declare!'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/queue.rb:56:in `initialize'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:401:in `new'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:401:in `queue'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:37:in `block in <top (required)>'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:35:in `each'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:35:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/pusher_ctl:11:in `<main>'
+peatio:amqp:pusher: process with pid 2333 started.
+E, [2014-06-30T18:32:08.872597 #2333] ERROR -- #<Bunny::Session:70343152584240 guest@59.127.216.102:5672, vhost=/>: Authentication with RabbitMQ failed: 403 ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/session.rb:960:in `open_connection': Authentication with RabbitMQ failed. Please check your connection settings. Username: guest, vhost: /, password length: 5 (Bunny::AuthenticationFailureError)
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/session.rb:255:in `start'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:17:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/pusher_ctl:11:in `<main>'
+peatio:amqp:pusher: process with pid 2269 started.
+I, [2014-06-30T19:20:44.741426 #2269]  INFO -- : Connected to AMQP broker (prefetch: default)

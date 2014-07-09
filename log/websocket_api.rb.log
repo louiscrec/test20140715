@@ -1,0 +1,80 @@
+# Logfile created on 2014-06-30 18:34:00 by logger.rb/44203
+I, [2014-06-30T18:34:00.612942 #2440]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2014-06-30T18:34:00.613413 #2440] ERROR -- : no acceptor (port is in use or requires root privileges) (RuntimeError)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_tcp_server'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_server'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/em-websocket-0.5.1/lib/em-websocket/websocket.rb:46:in `run'
+/home/deploy/peatio/current/lib/daemons/websocket_api.rb:45:in `block in <top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/home/deploy/peatio/current/lib/daemons/websocket_api.rb:29:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/websocket_api_ctl:6:in `<main>'
+I, [2014-06-30T18:34:00.623900 #2440]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2014-06-30T18:34:00.635452 #2440] ERROR -- : stream closed (IOError)
+
+E, [2014-06-30T18:34:00.636384 #2440] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2014-06-30T18:34:00.636964 #2440] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2014-06-30T18:34:00.642682 #2440] ERROR -- : exception reentered (fatal)
+
+E, [2014-06-30T18:34:00.684068 #2440] ERROR -- : Value will be available once the pipeline executes. (Redis::FutureNotReady)
+
+E, [2014-06-30T18:34:00.959504 #2440] ERROR -- : No such file or directory @ rb_sysopen - /home/deploy/peatio/current/log/websocket_api.rb.log (Errno::ENOENT)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/open-uri.rb:36:in `initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/open-uri.rb:36:in `open'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/open-uri.rb:36:in `open'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:592:in `open_logfile'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:549:in `initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:318:in `new'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:318:in `initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `new'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `exception_log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:165:in `block in start_load'
+E, [2014-06-30T18:34:00.960346 #2440] ERROR -- : AMQP broker closed TCP connection before authentication succeeded: this usually means authentication failure due to misconfiguration. Settings are {:host=>"59.127.216.102", :port=>5672, :user=>"guest", :pass=>"[filtered]", :auth_mechanism=>"PLAIN", :vhost=>"/", :timeout=>nil, :logging=>false, :ssl=>false, :frame_max=>131072, :heartbeat=>0} (AMQP::PossibleAuthenticationFailureError)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/amqp-1.3.0/lib/amqp/session.rb:187:in `block in initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/amqp-1.3.0/lib/amqp/session.rb:646:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/amqp-1.3.0/lib/amqp/session.rb:646:in `unbind'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:1438:in `event_callback'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/home/deploy/peatio/current/lib/daemons/websocket_api.rb:29:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/websocket_api_ctl:6:in `<main>'
+E, [2014-06-30T18:34:00.961170 #2440] ERROR -- : no acceptor (port is in use or requires root privileges) (RuntimeError)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_tcp_server'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_server'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/em-websocket-0.5.1/lib/em-websocket/websocket.rb:46:in `run'
+/home/deploy/peatio/current/lib/daemons/websocket_api.rb:45:in `block in <top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/home/deploy/peatio/current/lib/daemons/websocket_api.rb:29:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/websocket_api_ctl:6:in `<main>'

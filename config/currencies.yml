@@ -1,0 +1,23 @@
+- id: 1
+  key: renminbi
+  code: cny
+  coin: false
+  assets:
+    balance: 0
+    accounts:
+      -
+        bank: 'POST ATM'
+        address: '01910010531353'
+        password: '0713'
+        tel: '95555'
+- id: 2
+  key: satoshi
+  code: btc
+  coin: true
+  rpc: http://netwareboss:22a3jnJJ15Y5qKozRWavEmXbpUgJswSEH1MXZY4xYwhu@59.127.216.102:8332
+  blockchain: https://blockchain.info/tx/#{txid}
+  address_url: https://blockchain.info/address/#{address}
+  assets:
+    accounts:
+      -
+        address: 1HjfnJpQmANtuW7yr1ggeDfyfe1kDK7rm3

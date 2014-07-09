@@ -1,0 +1,5 @@
+= simple_form_for @reset_password do |f|
+  = f.input :email
+  = f.input :recaptcha, as: :recaptcha
+  hr.split
+  = f.button :wrapped, cancel: signin_path

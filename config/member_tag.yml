@@ -1,0 +1,13 @@
+defaults: &defaults
+  tags: 
+    - vip
+    - hero
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

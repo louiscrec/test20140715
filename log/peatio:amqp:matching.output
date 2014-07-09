@@ -1,0 +1,75 @@
+peatio:amqp:matching: process with pid 5840 started.
+I, [2014-06-30T16:38:19.034223 #5840]  INFO -- : Connected to AMQP broker (prefetch: default)
+D, [2014-06-30T16:38:19.037271 #5840] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"btccny", :side=>:ask}
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:1883:in `raise_if_continuation_resulted_in_a_channel_error!': ACCESS_REFUSED - access to exchange 'peatio.orderbook' in vhost '/' refused for user 'netwareboss' (Bunny::AccessRefused)
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:1132:in `exchange_declare'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/exchange.rb:253:in `declare!'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/exchange.rb:91:in `initialize'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:299:in `new'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/channel.rb:299:in `fanout'
+	from /home/deploy/peatio/current/app/models/amqp_queue.rb:19:in `exchange'
+	from /home/deploy/peatio/current/app/models/amqp_queue.rb:24:in `publish'
+	from /home/deploy/peatio/current/app/models/amqp_queue.rb:31:in `enqueue'
+	from /home/deploy/peatio/current/app/models/matching/order_book.rb:126:in `broadcast'
+	from /home/deploy/peatio/current/app/models/matching/order_book.rb:15:in `initialize'
+	from /home/deploy/peatio/current/app/models/matching/order_book_manager.rb:17:in `new'
+	from /home/deploy/peatio/current/app/models/matching/order_book_manager.rb:17:in `initialize'
+	from /home/deploy/peatio/current/app/models/matching/engine.rb:9:in `new'
+	from /home/deploy/peatio/current/app/models/matching/engine.rb:9:in `initialize'
+	from /home/deploy/peatio/current/app/models/worker/matching.rb:51:in `new'
+	from /home/deploy/peatio/current/app/models/worker/matching.rb:51:in `create_engine'
+	from /home/deploy/peatio/current/app/models/worker/matching.rb:46:in `initialize_engine'
+	from /home/deploy/peatio/current/app/models/worker/matching.rb:33:in `block in reload'
+	from /home/deploy/peatio/current/app/models/worker/matching.rb:33:in `each'
+	from /home/deploy/peatio/current/app/models/worker/matching.rb:33:in `reload'
+	from /home/deploy/peatio/current/app/models/worker/matching.rb:5:in `initialize'
+	from /home/deploy/peatio/current/app/models/amqp_config.rb:25:in `new'
+	from /home/deploy/peatio/current/app/models/amqp_config.rb:25:in `binding_worker'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:36:in `block in <top (required)>'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:35:in `each'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:35:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/matching_ctl:11:in `<main>'
+peatio:amqp:matching: process with pid 7441 started.
+E, [2014-06-30T16:47:13.922099 #7441] ERROR -- #<Bunny::Session:70024599735900 guest@59.127.216.102:5672, vhost=/>: Authentication with RabbitMQ failed: 403 ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/session.rb:960:in `open_connection': Authentication with RabbitMQ failed. Please check your connection settings. Username: guest, vhost: /, password length: 5 (Bunny::AuthenticationFailureError)
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/session.rb:255:in `start'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:17:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/matching_ctl:11:in `<main>'
+peatio:amqp:matching: process with pid 2455 started.
+E, [2014-06-30T18:34:04.036144 #2455] ERROR -- #<Bunny::Session:69846877781500 guest@59.127.216.102:5672, vhost=/>: Authentication with RabbitMQ failed: 403 ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/session.rb:960:in `open_connection': Authentication with RabbitMQ failed. Please check your connection settings. Username: guest, vhost: /, password length: 5 (Bunny::AuthenticationFailureError)
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bunny-1.2.1/lib/bunny/session.rb:255:in `start'
+	from /home/deploy/peatio/current/lib/daemons/amqp_daemon.rb:17:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/matching_ctl:11:in `<main>'
+peatio:amqp:matching: process with pid 2524 started.
+I, [2014-06-30T19:23:18.521383 #2524]  INFO -- : Connected to AMQP broker (prefetch: default)
+D, [2014-06-30T19:23:18.523791 #2524] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"btccny", :side=>:ask}
+D, [2014-06-30T19:23:18.687706 #2524] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"btccny", :side=>:bid}
+I, [2014-06-30T19:23:22.900209 #2524]  INFO -- : All engines reloaded.

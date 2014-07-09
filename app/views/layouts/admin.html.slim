@@ -1,0 +1,56 @@
+doctype html
+html lang="en"
+  head
+    = stylesheet_link_tag :admin, media: "all"
+    = javascript_include_tag :admin
+    = csrf_meta_tags
+
+  body id='#{controller_name}-#{action_name}'
+    nav#top-menu.navbar.navbar-inverse.navbar-fixed-top role="navigation"
+      .container
+        ul.nav.navbar-nav.navbar-left
+          li class='#{check_active('dashboard')}': a#admin href="#{main_app.admin_dashboard_path}" = t('header.dashboard')
+
+          - if can? :manage, Document
+            li class='#{check_active(Document)}'
+              a href='#{admin_documents_path}' = t(".menus.items.operating.documents")
+
+          - if can? :read, Proof
+            li class='#{check_active(Proof)}'
+              a href='#{admin_proofs_path}' = t(".menus.items.operating.proofs")
+
+          - if can? :menu, Deposit
+            li.dropdown class='#{check_active('deposits')}'
+              a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                span = t('admin_header.deposits')
+                span.caret
+              ul.dropdown-menu
+                - DepositChannel.all.sort.each do |c|
+                  - if can? :manage, c.kls
+                    li: a href='#{url_for([:admin, c.kls])}' = c.title_text
+
+          - if can? :menu, Withdraw
+            li.dropdown class='#{check_active('withdraws')}'
+              a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                span = t('admin_header.withdraws')
+                span.caret
+              ul.dropdown-menu
+                - WithdrawChannel.all.each do |c|
+                  - if can? :manage, c.kls
+                    li: a href='#{url_for([:admin, c.kls])}' = c.title_text
+
+          li.dropdown class='#{check_active('statistic')}'
+            a href="#" class="dropdown-toggle" data-toggle="dropdown"
+              span = t('admin_header.statistics')
+              span.caret
+            ul.dropdown-menu
+              - if can? :stat, Member
+                li class='#{check_active(Member)}'
+                  a href='#{admin_statistic_members_path}' = Member.model_name.human
+        ul.nav.navbar-nav.navbar-right
+          p.navbar-text = current_user.email
+          li: a href="#{main_app.root_path}" = t('actions.back')
+    .container
+      = breadcrumbs
+      = render 'shared/flash'
+      = yield

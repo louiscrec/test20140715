@@ -1,0 +1,227 @@
+# Logfile created on 2014-06-30 16:54:03 by logger.rb/44203
+I, [2014-06-30T16:54:04.066245 #5749]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2014-06-30T16:54:04.072783 #5749] ERROR -- : No such file or directory @ rb_sysopen - /home/deploy/peatio/current/log/payment_transaction.rb.log (Errno::ENOENT)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/open-uri.rb:36:in `initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/open-uri.rb:36:in `open'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/open-uri.rb:36:in `open'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:592:in `open_logfile'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:549:in `initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:318:in `new'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:318:in `initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `new'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `exception_log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:165:in `block in start_load'
+I, [2014-06-30T16:54:04.077787 #5749]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2014-06-30T16:54:04.083166 #5749] ERROR -- : stream closed (IOError)
+
+E, [2014-06-30T16:54:04.088344 #5749] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2014-06-30T16:54:04.089095 #5749] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2014-06-30T16:54:04.090833 #5749] ERROR -- : exception reentered (fatal)
+
+E, [2014-06-30T16:54:04.135166 #5749] ERROR -- : Value will be available once the pipeline executes. (Redis::FutureNotReady)
+
+E, [2014-06-30T16:54:04.249508 #5749] ERROR -- : No such file or directory @ rb_sysopen - /home/deploy/peatio/current/log/payment_transaction.rb.log (Errno::ENOENT)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/open-uri.rb:36:in `initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/open-uri.rb:36:in `open'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/open-uri.rb:36:in `open'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:592:in `open_logfile'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:549:in `initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:318:in `new'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/2.1.0/logger.rb:318:in `initialize'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `new'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `exception_log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:165:in `block in start_load'
+I, [2014-06-30T18:49:31.936326 #2410]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2014-06-30T18:49:31.939035 #2410] ERROR -- : Lost connection to MySQL server during query (Mysql2::Error)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `block in execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:435:in `block in log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:430:in `log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:222:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:226:in `exec_query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:235:in `select'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:24:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:63:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/querying.rb:36:in `find_by_sql'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:585:in `exec_queries'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:471:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:220:in `to_a'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation/delegation.rb:12:in `each'
+/home/deploy/peatio/current/lib/daemons/payment_transaction.rb:24:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/payment_transaction_ctl:6:in `<main>'
+I, [2014-06-30T18:49:31.953330 #2410]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2014-06-30T18:49:31.957175 #2410] ERROR -- : stream closed (IOError)
+
+E, [2014-06-30T18:49:31.962432 #2410] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2014-06-30T18:49:31.963345 #2410] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2014-06-30T18:49:31.965348 #2410] ERROR -- : exception reentered (fatal)
+
+E, [2014-06-30T18:49:32.043393 #2410] ERROR -- : Value will be available once the pipeline executes. (Redis::FutureNotReady)
+
+E, [2014-06-30T18:49:32.115440 #2410] ERROR -- : Mysql2::Error: Lost connection to MySQL server during query: SELECT `payment_transactions`.* FROM `payment_transactions`  WHERE `payment_transactions`.`aasm_state` IN ('unconfirm', 'confirming') (ActiveRecord::StatementInvalid)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `block in execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:435:in `block in log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:430:in `log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:222:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:226:in `exec_query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:235:in `select'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:24:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:63:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/querying.rb:36:in `find_by_sql'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:585:in `exec_queries'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:471:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:220:in `to_a'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation/delegation.rb:12:in `each'
+/home/deploy/peatio/current/lib/daemons/payment_transaction.rb:24:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/payment_transaction_ctl:6:in `<main>'
+E, [2014-06-30T18:49:32.115939 #2410] ERROR -- : Lost connection to MySQL server during query (Mysql2::Error)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `block in execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:435:in `block in log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:430:in `log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:222:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:226:in `exec_query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:235:in `select'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:24:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:63:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/querying.rb:36:in `find_by_sql'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:585:in `exec_queries'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:471:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:220:in `to_a'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation/delegation.rb:12:in `each'
+/home/deploy/peatio/current/lib/daemons/payment_transaction.rb:24:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/payment_transaction_ctl:6:in `<main>'
+I, [2014-07-01T05:08:01.688858 #2425]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2014-07-01T05:08:01.691676 #2425] ERROR -- : Can't connect to MySQL server on '59.127.216.102' (111 "Connection refused") (Mysql2::Error)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `block in execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:435:in `block in log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:430:in `log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:222:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:226:in `exec_query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:235:in `select'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:24:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:63:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/querying.rb:36:in `find_by_sql'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:585:in `exec_queries'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:471:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:220:in `to_a'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation/delegation.rb:12:in `each'
+/home/deploy/peatio/current/lib/daemons/payment_transaction.rb:24:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/payment_transaction_ctl:6:in `<main>'
+I, [2014-07-01T05:08:01.696040 #2425]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2014-07-01T05:08:01.699799 #2425] ERROR -- : stream closed (IOError)
+
+E, [2014-07-01T05:08:01.709584 #2425] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2014-07-01T05:08:01.710946 #2425] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2014-07-01T05:08:01.713943 #2425] ERROR -- : exception reentered (fatal)
+
+E, [2014-07-01T05:08:01.938440 #2425] ERROR -- : Value will be available once the pipeline executes. (Redis::FutureNotReady)
+
+E, [2014-07-01T05:08:02.010321 #2425] ERROR -- : Mysql2::Error: Can't connect to MySQL server on '59.127.216.102' (111 "Connection refused"): SELECT `payment_transactions`.* FROM `payment_transactions`  WHERE `payment_transactions`.`aasm_state` IN ('unconfirm', 'confirming') (ActiveRecord::StatementInvalid)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `block in execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:435:in `block in log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:430:in `log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:222:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:226:in `exec_query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:235:in `select'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:24:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:63:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/querying.rb:36:in `find_by_sql'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:585:in `exec_queries'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:471:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:220:in `to_a'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation/delegation.rb:12:in `each'
+/home/deploy/peatio/current/lib/daemons/payment_transaction.rb:24:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/payment_transaction_ctl:6:in `<main>'
+E, [2014-07-01T05:08:02.010846 #2425] ERROR -- : Can't connect to MySQL server on '59.127.216.102' (111 "Connection refused") (Mysql2::Error)
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `block in execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:435:in `block in log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:430:in `log'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:287:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:222:in `execute'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:226:in `exec_query'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:235:in `select'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:24:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:63:in `select_all'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/querying.rb:36:in `find_by_sql'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:585:in `exec_queries'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:471:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation.rb:220:in `to_a'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/relation/delegation.rb:12:in `each'
+/home/deploy/peatio/current/lib/daemons/payment_transaction.rb:24:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/home/deploy/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/payment_transaction_ctl:6:in `<main>'
