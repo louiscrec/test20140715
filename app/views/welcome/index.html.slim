@@ -2,12 +2,13 @@ header.text-center
   .ribbon
     /img src='#{image_path '2.png'}' width='600px'
     /註解掉a href="https://github.com/peatio/peatio" View on GitHub
-    img src='#{image_path '2.png'}' width='100px'
+    /img src='#{image_path '2.png'}' width='100px'
   .container
-    a href='http://github.com/peatio/peatio'
-      img src='#{image_path '1.png'}' width='600px'
+    /a href='http://github.com/peatio/peatio'
+    img src='#{image_path '1.png'}' width='1000px'
     section
-      - Rails.configuration.i18n.available_locales.each do |locale|
+        img src='#{image_path '2.png'}' width='200px'
+        /- Rails.configuration.i18n.available_locales.each do |locale|
         h3 = t(:slogan, locale: locale)
     #getstart.row
       - unless current_user

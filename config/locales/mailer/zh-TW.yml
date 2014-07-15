@@ -1,7 +1,7 @@
 ﻿zh-TW:
   member_mailer:
     notify_signin:
-      subject: 你剛登入了貔貅
+      subject: 你剛登入了數位比特
   withdraw_mailer:
     withdraw_state:
       subject: 你的提款狀態

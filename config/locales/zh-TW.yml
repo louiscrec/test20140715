@@ -1,10 +1,10 @@
-﻿zh-TW:
+zh-TW:
   "true": 是
   "false": 否
 
   view_on_github: 到 Github 上查看
-  slogan: 台灣數位比特yesbtc交易平台。
-  slogan_desc: 數位比特所是比特幣等加密數字貨幣的交易平台，是國內首個實現開源機制的項目，我們秉承“開放開源，陽光透明”的理念，旨在為廣大加密數字貨幣愛好者，提供一個代碼開源開放、資產公開透明，安全易用和最具有公信力的加密數字貨幣交易服務平台。
+  slogan: 台灣數位比特YESBTC交易平台。
+  slogan_desc: 數位比特交易所是比特幣等加密數字貨幣的交易平台，是國內首個實現加權平均數的項目，旨在為廣大加密數字貨幣愛好者，提供一個資產公開透明，安全易用和最具有公信力的加密數字貨幣交易服務平台。
   tags:
     vip: VIP
     hero: 超級用戶
@@ -13,7 +13,7 @@
     markets: 市場
     btccny: BTC/TWD
     realtime_price:
-      title: 實時價格
+      title: 目前價格
     account_balance:
       title: 我的帳戶
       available_btc: 可用BTC
@@ -94,9 +94,9 @@
     admin: 管理
     market: 下單管理
     settings: 帳戶
-    signin: 登錄
+    signin: Login
     signout: 安全退出
-    signup: 創建帳戶
+    signup: Signup
     deposit: 儲值
     withdraw: 提款
     getstart: 前往下單管理
@@ -161,6 +161,7 @@
   'no': 否
 
   banks:
+    001: 中央信託
     004: 台灣銀行
     005: 臺灣土地銀行
     006: 合作金庫商業銀行

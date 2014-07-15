@@ -8,9 +8,9 @@
         fund_extra_text: 轉帳銀行
         fund_uid: 轉帳帳戶
         holder: 持卡人姓名
-        receive_fund_holder_text: 貔貅交易所收款帳戶
-        receive_fund_uid_text: 貔貅交易所收款帳號
-        receive_fund_extra_text: 貔貅交易所開戶行
+        receive_fund_holder_text: 數位比特交易所收款帳戶
+        receive_fund_uid_text: 數位比特交易所收款帳號
+        receive_fund_extra_text: 數位比特交易所開戶行
         member_sn: 個人識別碼
         amount: 儲值金額
         sn: 交易編號
@@ -29,7 +29,7 @@
     bank:
       key: 銀行轉帳
       title: 銀行轉帳儲值
-      intro: 通過銀行轉帳的方式，從您的銀行帳戶儲值人民幣到您的貔貅帳戶。
+      intro: 通過銀行轉帳的方式，從您的銀行帳戶儲值新台幣到您的數位比特帳戶。
       latency: 10 分鐘到帳
       transfer: 人工處理
       receive_fund_holder: 銀行匯款收款人
@@ -44,7 +44,7 @@
         notice: 送出成功，您可在歷史記錄中查詢儲值到帳情況。
       banks:
         create:
-          success: 您的儲值訂單送出成功，請按照我們提供的貔貅帳戶繼續完成你的轉帳操作。
+          success: 您的儲值訂單送出成功，請按照我們提供的數位比特帳戶繼續完成你的轉帳操作。
         new:
           step-1: 第一步
           select-bank: 您可以選擇直接轉帳到我們的銀行帳戶，為了您的儲值可以迅速到帳，請您盡量選擇與我們相同的銀行進行轉帳充值。您可以選擇使用 在線銀行轉帳或臨櫃轉帳。
@@ -62,7 +62,7 @@
       deposits:
         banks:
           panel: 銀行轉帳儲值
-          intro: 通過銀行轉帳的方式，從您的銀行帳戶儲值人民幣到您的貔貅帳戶。
+          intro: 通過銀行轉帳的方式，從您的銀行帳戶儲值新台幣到您的數位比特帳戶。
           show:
             default-panel: 歷史記錄
           new:

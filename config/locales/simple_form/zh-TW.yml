@@ -45,7 +45,7 @@
     updating: 'Updating...'
     buttons:
       or: 'or'
-      cancel: 取消
+      cancel: cancel
     "yes": '是'
     "no": '否'
     required:
